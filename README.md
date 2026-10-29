@@ -56,7 +56,7 @@ when rebuilding it in LAPaL's Vue front end, and what is still open.
 
 **Not included:** `tools/xlsx_to_json.py` and `tools/parity_reference.py` read the
 data spreadsheet and the reference coverage logic from a handoff folder
-(`../lapal-public-handoff/`). That folder is not part of this repository. The page,
+(`../licence-territory-dashboard/lapal-public-handoff/`). That folder is not part of this repository. The page,
 the checks and the tests do not need it.
 
 ## Credits

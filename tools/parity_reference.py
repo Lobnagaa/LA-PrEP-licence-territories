@@ -1,10 +1,10 @@
 """Run the Python reference coverage logic over the public JSON, for the parity test.
 
 Usage (from the repository folder; needs pandas, e.g. the dashboard's .venv):
-    ../.venv/bin/python tools/parity_reference.py
+    ../licence-territory-dashboard/.venv/bin/python tools/parity_reference.py
 
 Reads   data/lapal_licence_coverage.json (public data only, never the private workbook)
-        ../lapal-public-handoff/reference/coverage_reference.py (imported unchanged)
+        ../licence-territory-dashboard/lapal-public-handoff/reference/coverage_reference.py (imported unchanged)
 Writes  tools/parity_expected.json, which tools/test_stage1.js compares with coverage.js
 
 The reference expects the private dashboard's dataset object; a small stand-in
@@ -20,7 +20,7 @@ from types import SimpleNamespace
 import pandas as pd
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REF = os.path.join(ROOT, '..', 'lapal-public-handoff', 'reference', 'coverage_reference.py')
+REF = os.path.join(ROOT, '..', 'licence-territory-dashboard', 'lapal-public-handoff', 'reference', 'coverage_reference.py')
 spec = importlib.util.spec_from_file_location('coverage_reference', REF)
 cov = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(cov)

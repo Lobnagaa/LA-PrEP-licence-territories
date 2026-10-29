@@ -2,7 +2,7 @@
 
 A framework-free prototype of the public licence-coverage page, to be rebuilt in
 LAPaL's Vue front end. Behaviour is specified in
-`../lapal-public-handoff/SPEC.md` and colours in `PALETTE.md`; these notes cover
+`../licence-territory-dashboard/lapal-public-handoff/SPEC.md` and colours in `PALETTE.md`; these notes cover
 how the prototype is put together and what to keep when porting it.
 
 ## Run it
@@ -144,7 +144,7 @@ Re-run the three commands above. No code change is needed for:
   reference figures (CAB 133, 87.2% and so on), so they will fail on new data by
   design.
 - After a data update, regenerate the Python comparison with
-  `../.venv/bin/python tools/parity_reference.py` and update the pinned figures.
+  `../licence-territory-dashboard/.venv/bin/python tools/parity_reference.py` and update the pinned figures.
 - `check_data.js` is the check that must always pass.
 
 ## Rules to carry into the Vue rebuild

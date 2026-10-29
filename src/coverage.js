@@ -1,5 +1,5 @@
 /* Coverage logic: a port of the private dashboard's data_layer/coverage.py
- * (copy in ../lapal-public-handoff/reference/coverage_reference.py).
+ * (copy in ../licence-territory-dashboard/lapal-public-handoff/reference/coverage_reference.py).
  *
  * Pure functions over the dataset built by data.js. No DOM, no colours. Every
  * number on the page is computed here, live, from `ds.status`; nothing is

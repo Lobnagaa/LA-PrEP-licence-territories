@@ -3,7 +3,7 @@
 Usage (from the repository folder):
     python3 tools/xlsx_to_json.py [path/to/lapal_licence_coverage.xlsx]
 
-Reads   ../lapal-public-handoff/data/lapal_licence_coverage.xlsx (default), read-only
+Reads   ../licence-territory-dashboard/lapal-public-handoff/data/lapal_licence_coverage.xlsx (default), read-only
 Writes  data/lapal_licence_coverage.json
 
 This is the only step between the spreadsheet and the page. It reshapes, it does
@@ -29,7 +29,7 @@ import sys
 from openpyxl import load_workbook
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DEFAULT_XLSX = os.path.join(ROOT, '..', 'lapal-public-handoff', 'data', 'lapal_licence_coverage.xlsx')
+DEFAULT_XLSX = os.path.join(ROOT, '..', 'licence-territory-dashboard', 'lapal-public-handoff', 'data', 'lapal_licence_coverage.xlsx')
 OUT = os.path.join(ROOT, 'data', 'lapal_licence_coverage.json')
 
 REQUIRED = {

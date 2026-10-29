@@ -1,9 +1,9 @@
 /* Design tokens: every colour and font the page uses, in one place.
  *
  * Values are LAPaL's own (lapal.ch compiled stylesheet, read 27 Oct 2026; see
- * ../lapal-public-handoff/PALETTE.md). Rename these to LAPaL's token names
+ * ../licence-territory-dashboard/lapal-public-handoff/PALETTE.md). Rename these to LAPaL's token names
  * when integrating. After changing any map colour, re-run
- * ../lapal-public-handoff/reference/colour_check.py.
+ * ../licence-territory-dashboard/lapal-public-handoff/reference/colour_check.py.
  *
  * Licence identity colours are NOT here: they come from the data
  * (licences[].colour, fade_colour, ramp_direct, ramp_indirect), so a new licence
