@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Long-acting HIV PrEP: licence coverage · LAPaL</title>
+<!-- PT Sans, LAPaL's typeface. Needs an internet connection; falls back to sans-serif. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
+<!--__HEAD_META__-->
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<main class="lapal-page">
+  <!-- Filled by ui.js from the logos the build found (assets/logos/). -->
+  <header id="logo-bar" class="logo-bar" hidden></header>
+  <div id="data-error" class="data-error" role="alert" hidden>
+    <h2>The licence coverage data could not be loaded</h2>
+    <p>The data failed these checks, so nothing is shown rather than a wrong map:</p>
+    <ul></ul>
+  </div>
+
+  <div class="layout">
+  <!-- Controls are filled in from the data by ui.js. Sidebar on wide screens, on top on narrow ones. -->
+  <aside id="controls" class="controls" aria-label="Map settings">
+    <fieldset class="control control-primary">
+      <legend>Licences</legend>
+      <div id="licence-picker"></div>
+      <p id="licence-hint" class="hint"></p>
+      <div id="merge-row" class="merge-row">
+        <label class="check"><input type="checkbox" id="merge" aria-describedby="merge-note"> <span>Merge direct and indirect coverage <span id="merge-tag" class="tag"></span></span></label>
+        <p id="merge-note" class="hint"></p>
+      </div>
+    </fieldset>
+
+    <fieldset id="mode-row" class="control" hidden>
+      <legend>Show</legend>
+      <div id="mode-picker"></div>
+      <label id="tier-row" class="select-row" hidden>Break out a tier
+        <select id="tier"></select>
+      </label>
+    </fieldset>
+
+    <fieldset class="control">
+      <legend>Region</legend>
+      <div id="region-filter"></div>
+    </fieldset>
+
+    <fieldset class="control">
+      <legend>Income group</legend>
+      <div id="income-filter"></div>
+      <button type="button" id="clear-filters" class="link-button" hidden>Clear region and income filters</button>
+    </fieldset>
+
+    <fieldset class="control">
+      <legend>Highlight</legend>
+      <label class="select-row">A country on the map
+        <select id="highlight"></select>
+      </label>
+    </fieldset>
+  </aside>
+
+  <div class="main-col">
+  <section id="map-area" class="map-area">
+    <div class="title-row">
+      <h1 id="title" class="map-title"></h1>
+      <div class="export-buttons">
+        <button type="button" id="export-png" class="export-button">Download PNG</button>
+        <button type="button" id="export-pptx" class="export-button">Download slide</button>
+        <button type="button" id="export-xlsx" class="export-button">Download spreadsheet</button>
+      </div>
+    </div>
+    <p id="summary" class="map-summary"></p>
+    <div id="notes" class="notes" role="status" hidden></div>
+    <div id="map" class="map"></div>
+    <div id="legend" class="legend" aria-label="Legend: click an entry to hide it on the map"></div>
+    <p id="none-note" class="none-note" hidden></p>
+    <p class="legend-hint">Click a legend entry to hide or show it on the map. Click a country to highlight it. Numbers are country counts.</p>
+    <section id="tiles-area" class="tiles-area" aria-label="Headline figures">
+      <div id="tiles" class="tiles"></div>
+      <div id="tile-list" class="tile-list" role="region" aria-live="polite" hidden></div>
+    </section>
+    <div id="breakout-list" class="breakout-list" hidden></div>
+  </section>
+
+
+
+  <!-- Country lookup with the region / income tables beside it. -->
+  <div class="lookup-tables">
+    <section id="lookup" class="lookup" aria-labelledby="lookup-heading">
+      <h2 id="lookup-heading">Country lookup</h2>
+      <div class="lookup-search">
+        <label for="lookup-input">Search a country</label>
+        <input id="lookup-input" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Country name or ISO3 code" aria-describedby="lookup-help" aria-controls="lookup-suggest">
+        <p id="lookup-help" class="hint">Or click a country on the map.</p>
+        <ul id="lookup-suggest" class="lookup-suggest" hidden></ul>
+      </div>
+      <div id="lookup-detail" class="lookup-detail" aria-live="polite"></div>
+    </section>
+    <section id="tables" class="tables" aria-label="Coverage by region and income group"></section>
+  </div>
+
+  <!-- "About this map" and "Data sources", side by side. Wording comes from `texts` in the data. -->
+  <div id="page-footer" class="page-footer"></div>
+
+  <!-- Written at build time by tools/prerender.js: readable without JavaScript, for
+       search engines, AI crawlers and screen readers. Collapsed for sighted visitors. -->
+  <details class="table-block text-summary" id="text-summary">
+    <summary><h2>Licence coverage in text</h2></summary>
+    <!--__SUMMARY__-->
+    <p><a href="lapal_licence_coverage.csv" download>Download the full country data (CSV)</a></p>
+  </details>
+  </div>
+  </div>
+
+  <!-- "Coordinated by" / "With support from" logos, filled by ui.js. -->
+  <footer id="partners" class="partners" hidden></footer>
+
+</main>
+
+<script>/*__VENDOR__*/</script>
+<script>/*__DATA__*/</script>
+<script>/*__APP__*/</script>
+</body>
+</html>

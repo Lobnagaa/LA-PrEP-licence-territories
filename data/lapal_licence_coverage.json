@@ -1,0 +1,6939 @@
+{
+ "generated": "2026-10-27",
+ "licences": [
+  {
+   "code": "CAB",
+   "name": "Cabotegravir",
+   "licence_type": "MPP",
+   "originator": "ViiV Healthcare",
+   "disease": "HIV",
+   "indication": "PrEP",
+   "colour": "#153F8F",
+   "fade_colour": "#96A9CD",
+   "ramp_direct": "#153F8F",
+   "ramp_indirect": "#7E95C1"
+  },
+  {
+   "code": "LEN",
+   "name": "Lenacapavir",
+   "licence_type": "Bilateral",
+   "originator": "Gilead Sciences",
+   "disease": "HIV",
+   "indication": "PrEP",
+   "colour": "#B53E8B",
+   "fade_colour": "#DEA8CB",
+   "ramp_direct": null,
+   "ramp_indirect": null
+  },
+  {
+   "code": "AMI",
+   "name": "Alimatravir",
+   "licence_type": "Bilateral",
+   "originator": "MSD",
+   "disease": "HIV",
+   "indication": "PrEP",
+   "colour": "#0092CC",
+   "fade_colour": "#8CCEE8",
+   "ramp_direct": null,
+   "ramp_indirect": null
+  }
+ ],
+ "countries": [
+  {
+   "iso3": "AFG",
+   "country": "Afghanistan",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1100.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "ALB",
+   "country": "Albania",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "DZA",
+   "country": "Algeria",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 2700.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "ASM",
+   "country": "American Samoa",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "AND",
+   "country": "Andorra",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "AGO",
+   "country": "Angola",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 21000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.53
+  },
+  {
+   "iso3": "AIA",
+   "country": "Anguilla",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "ATG",
+   "country": "Antigua and Barbuda",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.47
+  },
+  {
+   "iso3": "ARG",
+   "country": "Argentina",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 5900.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.13
+  },
+  {
+   "iso3": "ARM",
+   "country": "Armenia",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 620.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.21
+  },
+  {
+   "iso3": "ABW",
+   "country": "Aruba",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "AUS",
+   "country": "Australia",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "AUT",
+   "country": "Austria",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "AZE",
+   "country": "Azerbaijan",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "BHS",
+   "country": "Bahamas",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.11
+  },
+  {
+   "iso3": "BHR",
+   "country": "Bahrain",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "BGD",
+   "country": "Bangladesh",
+   "region": "South Asia",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1500.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.005
+  },
+  {
+   "iso3": "BRB",
+   "country": "Barbados",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.31
+  },
+  {
+   "iso3": "BLR",
+   "country": "Belarus",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "BEL",
+   "country": "Belgium",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "BLZ",
+   "country": "Belize",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.49
+  },
+  {
+   "iso3": "BEN",
+   "country": "Benin",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 920.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "BMU",
+   "country": "Bermuda",
+   "region": "North America",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "BTN",
+   "country": "Bhutan",
+   "region": "South Asia",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "BOL",
+   "country": "Bolivia",
+   "region": "Latin America & Caribbean",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 2400.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.19
+  },
+  {
+   "iso3": "BIH",
+   "country": "Bosnia and Herzegovina",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "BWA",
+   "country": "Botswana",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 3200.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 1.4
+  },
+  {
+   "iso3": "BRA",
+   "country": "Brazil",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 69000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.33
+  },
+  {
+   "iso3": "VGB",
+   "country": "British Virgin Islands",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "BRN",
+   "country": "Brunei Darussalam",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "BGR",
+   "country": "Bulgaria",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "BFA",
+   "country": "Burkina Faso",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1600.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "BDI",
+   "country": "Burundi",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1600.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.11
+  },
+  {
+   "iso3": "KHM",
+   "country": "Cambodia",
+   "region": "East Asia & Pacific",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 960.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "CMR",
+   "country": "Cameroon",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 21000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.7
+  },
+  {
+   "iso3": "CAN",
+   "country": "Canada",
+   "region": "North America",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "CPV",
+   "country": "Cape Verde",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.4
+  },
+  {
+   "iso3": "CYM",
+   "country": "Cayman Islands",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "CAF",
+   "country": "Central African Republic",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 2800.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.49
+  },
+  {
+   "iso3": "TCD",
+   "country": "Chad",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 3300.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.16
+  },
+  {
+   "iso3": "CHI",
+   "country": "Channel Islands",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "CHL",
+   "country": "Chile",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 3500.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.18
+  },
+  {
+   "iso3": "CHN",
+   "country": "China",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "COL",
+   "country": "Colombia",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 11000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.2
+  },
+  {
+   "iso3": "COM",
+   "country": "Comoros",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "COG",
+   "country": "Congo",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 10000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 1.6
+  },
+  {
+   "iso3": "COD",
+   "country": "Congo, Dem. Rep.",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 23000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.2
+  },
+  {
+   "iso3": "CRI",
+   "country": "Costa Rica",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 1300.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.25
+  },
+  {
+   "iso3": "CIV",
+   "country": "Cote d’Ivoire",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "HRV",
+   "country": "Croatia",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "CUB",
+   "country": "Cuba",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1700.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.15
+  },
+  {
+   "iso3": "CUW",
+   "country": "Curacao",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "CYP",
+   "country": "Cyprus",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "CZE",
+   "country": "Czech Republic",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "DNK",
+   "country": "Denmark",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "DJI",
+   "country": "Djibouti",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.27
+  },
+  {
+   "iso3": "DMA",
+   "country": "Dominica",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "DOM",
+   "country": "Dominican Republic",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 4500.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.4
+  },
+  {
+   "iso3": "ECU",
+   "country": "Ecuador",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 2000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.11
+  },
+  {
+   "iso3": "EGY",
+   "country": "Egypt",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 6300.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "SLV",
+   "country": "El Salvador",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 600.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.1
+  },
+  {
+   "iso3": "GNQ",
+   "country": "Equatorial Guinea",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "ERI",
+   "country": "Eritrea",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.1
+  },
+  {
+   "iso3": "EST",
+   "country": "Estonia",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "SWZ",
+   "country": "Eswatini",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 2000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 1.9
+  },
+  {
+   "iso3": "ETH",
+   "country": "Ethiopia",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 9500.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "FRO",
+   "country": "Faeroe Islands",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "FJI",
+   "country": "Fiji",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1700.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 1.9
+  },
+  {
+   "iso3": "FIN",
+   "country": "Finland",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "FRA",
+   "country": "France",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "PYF",
+   "country": "French Polynesia",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "GAB",
+   "country": "Gabon",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1500.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.58
+  },
+  {
+   "iso3": "GMB",
+   "country": "Gambia",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1100.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.47
+  },
+  {
+   "iso3": "GEO",
+   "country": "Georgia",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "DEU",
+   "country": "Germany",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "GHA",
+   "country": "Ghana",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 14000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.42
+  },
+  {
+   "iso3": "GIB",
+   "country": "Gibraltar",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "GRC",
+   "country": "Greece",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 560.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "GRL",
+   "country": "Greenland",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "GRD",
+   "country": "Grenada",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "GUM",
+   "country": "Guam",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "GTM",
+   "country": "Guatemala",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "GIN",
+   "country": "Guinea",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 3800.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.26
+  },
+  {
+   "iso3": "GNB",
+   "country": "Guinea-Bissau",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 930.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.42
+  },
+  {
+   "iso3": "GUY",
+   "country": "Guyana",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.56
+  },
+  {
+   "iso3": "HTI",
+   "country": "Haiti",
+   "region": "Latin America & Caribbean",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 4400.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.38
+  },
+  {
+   "iso3": "VAT",
+   "country": "Holy See",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "HND",
+   "country": "Honduras",
+   "region": "Latin America & Caribbean",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "HKG",
+   "country": "Hong Kong SAR, China",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "HUN",
+   "country": "Hungary",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "ISL",
+   "country": "Iceland",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "IND",
+   "country": "India",
+   "region": "South Asia",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 60000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "IDN",
+   "country": "Indonesia",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 21000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "IRN",
+   "country": "Iran",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "IRQ",
+   "country": "Iraq",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "IRL",
+   "country": "Ireland",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "IMN",
+   "country": "Isle of Man",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "ISR",
+   "country": "Israel",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "ITA",
+   "country": "Italy",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 3700.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "JAM",
+   "country": "Jamaica",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "JPN",
+   "country": "Japan",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "JOR",
+   "country": "Jordan",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "KAZ",
+   "country": "Kazakhstan",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1800.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "KEN",
+   "country": "Kenya",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 14000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.25
+  },
+  {
+   "iso3": "KIR",
+   "country": "Kiribati",
+   "region": "East Asia & Pacific",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "PRK",
+   "country": "Korea, Dem. Rep.",
+   "region": "East Asia & Pacific",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "KOR",
+   "country": "Korea, Rep.",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "XKX",
+   "country": "Kosovo",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "KWT",
+   "country": "Kuwait",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "KGZ",
+   "country": "Kyrgyzstan",
+   "region": "Europe & Central Asia",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1100.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.15
+  },
+  {
+   "iso3": "LAO",
+   "country": "Laos",
+   "region": "East Asia & Pacific",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1300.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.17
+  },
+  {
+   "iso3": "LVA",
+   "country": "Latvia",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "LBN",
+   "country": "Lebanon",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "LSO",
+   "country": "Lesotho",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 3300.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 2.0
+  },
+  {
+   "iso3": "LBR",
+   "country": "Liberia",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 2900.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.5
+  },
+  {
+   "iso3": "LBY",
+   "country": "Libya",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "LIE",
+   "country": "Liechtenstein",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "LTU",
+   "country": "Lithuania",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "LUX",
+   "country": "Luxembourg",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "MAC",
+   "country": "Macao SAR, China",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "MKD",
+   "country": "Macedonia",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "MDG",
+   "country": "Madagascar",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 26000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.79
+  },
+  {
+   "iso3": "MWI",
+   "country": "Malawi",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 14000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.67
+  },
+  {
+   "iso3": "MYS",
+   "country": "Malaysia",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 2900.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "MDV",
+   "country": "Maldives",
+   "region": "South Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.005
+  },
+  {
+   "iso3": "MLI",
+   "country": "Mali",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 4400.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.18
+  },
+  {
+   "iso3": "MLT",
+   "country": "Malta",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "MHL",
+   "country": "Marshall Islands",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "MRT",
+   "country": "Mauritania",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "MUS",
+   "country": "Mauritius",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "MEX",
+   "country": "Mexico",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 22000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.17
+  },
+  {
+   "iso3": "FSM",
+   "country": "Micronesia, Fed. Sts.",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "MDA",
+   "country": "Moldova",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.36
+  },
+  {
+   "iso3": "MCO",
+   "country": "Monaco",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "MNG",
+   "country": "Mongolia",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "MNE",
+   "country": "Montenegro",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "MSR",
+   "country": "Montserrat",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "MAR",
+   "country": "Morocco",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1100.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "MOZ",
+   "country": "Mozambique",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 77000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 2.3
+  },
+  {
+   "iso3": "MMR",
+   "country": "Myanmar",
+   "region": "East Asia & Pacific",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 9500.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.17
+  },
+  {
+   "iso3": "NAM",
+   "country": "Namibia",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 3900.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 1.4
+  },
+  {
+   "iso3": "NRU",
+   "country": "Nauru",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "NPL",
+   "country": "Nepal",
+   "region": "South Asia",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 550.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "NLD",
+   "country": "Netherlands",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "NCL",
+   "country": "New Caledonia",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "NZL",
+   "country": "New Zealand",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.005
+  },
+  {
+   "iso3": "NIC",
+   "country": "Nicaragua",
+   "region": "Latin America & Caribbean",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "NER",
+   "country": "Niger",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1500.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "NGA",
+   "country": "Nigeria",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 64000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.27
+  },
+  {
+   "iso3": "MNP",
+   "country": "Northern Mariana Islands",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "NOR",
+   "country": "Norway",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "OMN",
+   "country": "Oman",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "PAK",
+   "country": "Pakistan",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 44000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.17
+  },
+  {
+   "iso3": "PLW",
+   "country": "Palau",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "PAN",
+   "country": "Panama",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 1500.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.34
+  },
+  {
+   "iso3": "PNG",
+   "country": "Papua New Guinea",
+   "region": "East Asia & Pacific",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "PRY",
+   "country": "Paraguay",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1400.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.21
+  },
+  {
+   "iso3": "PER",
+   "country": "Peru",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 6600.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.19
+  },
+  {
+   "iso3": "PHL",
+   "country": "Philippines",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 34000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.29
+  },
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "PRT",
+   "country": "Portugal",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 520.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "PRI",
+   "country": "Puerto Rico",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "QAT",
+   "country": "Qatar",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "ROU",
+   "country": "Romania",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "RUS",
+   "country": "Russia",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "RWA",
+   "country": "Rwanda",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 2300.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.16
+  },
+  {
+   "iso3": "LCA",
+   "country": "Saint Lucia",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.17
+  },
+  {
+   "iso3": "VCT",
+   "country": "Saint Vincent and the Grenadines",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "WSM",
+   "country": "Samoa",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "SMR",
+   "country": "San Marino",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "STP",
+   "country": "Sao Tome and Principe",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.15
+  },
+  {
+   "iso3": "SAU",
+   "country": "Saudi Arabia",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 1300.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "SEN",
+   "country": "Senegal",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "SRB",
+   "country": "Serbia",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "SYC",
+   "country": "Seychelles",
+   "region": "Sub-Saharan Africa",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "SLE",
+   "country": "Sierra Leone",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 2700.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.3
+  },
+  {
+   "iso3": "SGP",
+   "country": "Singapore",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "SXM",
+   "country": "Sint Maarten (Dutch part)",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "SVK",
+   "country": "Slovak Republic",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "SVN",
+   "country": "Slovenia",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "SLB",
+   "country": "Solomon Islands",
+   "region": "East Asia & Pacific",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "SOM",
+   "country": "Somalia",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.005
+  },
+  {
+   "iso3": "ZAF",
+   "country": "South Africa",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 130000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 2.4
+  },
+  {
+   "iso3": "SSD",
+   "country": "South Sudan",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 6100.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.39
+  },
+  {
+   "iso3": "ESP",
+   "country": "Spain",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 3100.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "LKA",
+   "country": "Sri Lanka",
+   "region": "South Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 860.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "KNA",
+   "country": "St. Kitts and Nevis",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.28
+  },
+  {
+   "iso3": "MAF",
+   "country": "St. Martin (French part)",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "SDN",
+   "country": "Sudan",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 5300.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.1
+  },
+  {
+   "iso3": "SUR",
+   "country": "Suriname",
+   "region": "Latin America & Caribbean",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.73
+  },
+  {
+   "iso3": "SWE",
+   "country": "Sweden",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "CHE",
+   "country": "Switzerland",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "SYR",
+   "country": "Syria",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 50.0,
+   "new_hiv_infections_shown_as": "<100",
+   "hiv_incidence_per_1000_uninfected": 0.005
+  },
+  {
+   "iso3": "TWN",
+   "country": "Taiwan, China",
+   "region": "East Asia & Pacific",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "TJK",
+   "country": "Tajikistan",
+   "region": "Europe & Central Asia",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "TZA",
+   "country": "Tanzania",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 34000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.48
+  },
+  {
+   "iso3": "THA",
+   "country": "Thailand",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 7300.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.1
+  },
+  {
+   "iso3": "TLS",
+   "country": "Timor-Leste",
+   "region": "East Asia & Pacific",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.1
+  },
+  {
+   "iso3": "TGO",
+   "country": "Togo",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 2100.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.25
+  },
+  {
+   "iso3": "TON",
+   "country": "Tonga",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "TTO",
+   "country": "Trinidad and Tobago",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 250.0,
+   "new_hiv_infections_shown_as": "<500",
+   "hiv_incidence_per_1000_uninfected": 0.22
+  },
+  {
+   "iso3": "TUN",
+   "country": "Tunisia",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 740.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "TKM",
+   "country": "Turkmenistan",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "TCA",
+   "country": "Turks & Caicos",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "TUV",
+   "country": "Tuvalu",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "TUR",
+   "country": "Türkiye",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "USA",
+   "country": "USA",
+   "region": "North America",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "UGA",
+   "country": "Uganda",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 34000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.71
+  },
+  {
+   "iso3": "UKR",
+   "country": "Ukraine",
+   "region": "Europe & Central Asia",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "ARE",
+   "country": "United Arab Emirates",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 100.0,
+   "new_hiv_infections_shown_as": "<200",
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "GBR",
+   "country": "United Kingdom",
+   "region": "Europe & Central Asia",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "URY",
+   "country": "Uruguay",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": 810.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.23
+  },
+  {
+   "iso3": "UZB",
+   "country": "Uzbekistan",
+   "region": "Europe & Central Asia",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "VUT",
+   "country": "Vanuatu",
+   "region": "East Asia & Pacific",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "VEN",
+   "country": "Venezuela",
+   "region": "Latin America & Caribbean",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 7000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.25
+  },
+  {
+   "iso3": "VNM",
+   "country": "Vietnam",
+   "region": "East Asia & Pacific",
+   "income_group": "Upper-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 6100.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "VIR",
+   "country": "Virgin Islands (U.S.)",
+   "region": "Latin America & Caribbean",
+   "income_group": "High",
+   "income_bucket": "HIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "PSE",
+   "country": "West Bank and Gaza",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "ESH",
+   "country": "Western Sahara",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": null,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": null
+  },
+  {
+   "iso3": "YEM",
+   "country": "Yemen",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "income_group": "Low",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 1200.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.05
+  },
+  {
+   "iso3": "ZMB",
+   "country": "Zambia",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 23000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 1.1
+  },
+  {
+   "iso3": "ZWE",
+   "country": "Zimbabwe",
+   "region": "Sub-Saharan Africa",
+   "income_group": "Lower-middle",
+   "income_bucket": "LMIC",
+   "new_hiv_infections": 15000.0,
+   "new_hiv_infections_shown_as": null,
+   "hiv_incidence_per_1000_uninfected": 0.89
+  }
+ ],
+ "coverage": [
+  {
+   "iso3": "ABW",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AFG",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AGO",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AIA",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ALB",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AND",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ARE",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ARG",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ARM",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ASM",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ATG",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AUS",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AUT",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AZE",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BDI",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BEL",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BEN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BFA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BGD",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BGR",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BHR",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BHS",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BIH",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BLR",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BLZ",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BMU",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BOL",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BRA",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BRB",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BRN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BTN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BWA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CAF",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CAN",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHE",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHI",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHL",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHN",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CIV",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CMR",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COD",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COG",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COL",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COM",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CPV",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CRI",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CUB",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CUW",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CYM",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CYP",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CZE",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DEU",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DJI",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DMA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DNK",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DOM",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DZA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct with royalties",
+   "royalty_rate": "5% public / 10% private"
+  },
+  {
+   "iso3": "ECU",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "EGY",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct with royalties",
+   "royalty_rate": "5% public / 10% private"
+  },
+  {
+   "iso3": "ERI",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ESH",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ESP",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "EST",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ETH",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FIN",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FJI",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FRA",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FRO",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FSM",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GAB",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GBR",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GEO",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GHA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GIB",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GIN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GMB",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GNB",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GNQ",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GRC",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GRD",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GRL",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GTM",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GUM",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GUY",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HKG",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HND",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HRV",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HTI",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HUN",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IDN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct with royalties",
+   "royalty_rate": "5% public / 10% private"
+  },
+  {
+   "iso3": "IMN",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IND",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct with royalties",
+   "royalty_rate": "5% public / 10% private"
+  },
+  {
+   "iso3": "IRL",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IRN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IRQ",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ISL",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ISR",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ITA",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "JAM",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "JOR",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "JPN",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KAZ",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KEN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KGZ",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct with royalties",
+   "royalty_rate": "5% public / 10% private"
+  },
+  {
+   "iso3": "KHM",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KIR",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KNA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KOR",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KWT",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LAO",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LBN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LBR",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LBY",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LCA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LIE",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LKA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LSO",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LTU",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LUX",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LVA",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MAC",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MAF",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MAR",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct with royalties",
+   "royalty_rate": "5% public / 10% private"
+  },
+  {
+   "iso3": "MCO",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MDA",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MDG",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MDV",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MEX",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MHL",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MKD",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MLI",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MLT",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MMR",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MNE",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MNG",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MNP",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MOZ",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MRT",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MSR",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MUS",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MWI",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MYS",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NAM",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NCL",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NER",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NGA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NIC",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NLD",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NOR",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NPL",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NRU",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NZL",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "OMN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PAK",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PAN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PER",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PHL",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct with royalties",
+   "royalty_rate": "5% public / 10% private"
+  },
+  {
+   "iso3": "PLW",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PNG",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "POL",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRI",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRK",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRT",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRY",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PSE",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PYF",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "QAT",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ROU",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "RUS",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "RWA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SAU",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SDN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SEN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SGP",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SLB",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SLE",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SLV",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SMR",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SOM",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SRB",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SSD",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "STP",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SUR",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SVK",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SVN",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SWE",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SWZ",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SXM",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SYC",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SYR",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TCA",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TCD",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TGO",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "THA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TJK",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct with royalties",
+   "royalty_rate": "5% public / 10% private"
+  },
+  {
+   "iso3": "TKM",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TLS",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TON",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TTO",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TUN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TUR",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TUV",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TWN",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TZA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "UGA",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "UKR",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct with royalties",
+   "royalty_rate": "5% public / 10% private"
+  },
+  {
+   "iso3": "URY",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "USA",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "UZB",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VAT",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VCT",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VEN",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Indirect",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VGB",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VIR",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VNM",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct with royalties",
+   "royalty_rate": "5% public / 10% private"
+  },
+  {
+   "iso3": "VUT",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "WSM",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "XKX",
+   "licence": "CAB",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "YEM",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ZAF",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ZMB",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ZWE",
+   "licence": "CAB",
+   "covered": "Yes",
+   "basis": "Direct",
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ABW",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AFG",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AGO",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AIA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ALB",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AND",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ARE",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ARG",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ARM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ASM",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ATG",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AUS",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AUT",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AZE",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BDI",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BEL",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BEN",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BFA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BGD",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BGR",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BHR",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BHS",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BIH",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BLR",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BLZ",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BMU",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BOL",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BRA",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BRB",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BRN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BTN",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BWA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CAF",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CAN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHE",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHI",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHL",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CIV",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CMR",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COD",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COG",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COL",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CPV",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CRI",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CUB",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CUW",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CYM",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CYP",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CZE",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DEU",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DJI",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DMA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DNK",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DOM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DZA",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ECU",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "EGY",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ERI",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ESH",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ESP",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "EST",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ETH",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FIN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FJI",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FRA",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FRO",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FSM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GAB",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GBR",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GEO",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GHA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GIB",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GIN",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GMB",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GNB",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GNQ",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GRC",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GRD",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GRL",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GTM",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GUM",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GUY",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HKG",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HND",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HRV",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HTI",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HUN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IDN",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IMN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IND",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IRL",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IRN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IRQ",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ISL",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ISR",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ITA",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "JAM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "JOR",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "JPN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KAZ",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KEN",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KGZ",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KHM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KIR",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KNA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KOR",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KWT",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LAO",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LBN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LBR",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LBY",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LCA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LIE",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LKA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LSO",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LTU",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LUX",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LVA",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MAC",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MAF",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MAR",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MCO",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MDA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MDG",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MDV",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MEX",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MHL",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MKD",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MLI",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MLT",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MMR",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MNE",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MNG",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MNP",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MOZ",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MRT",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MSR",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MUS",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MWI",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MYS",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NAM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NCL",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NER",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NGA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NIC",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NLD",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NOR",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NPL",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NRU",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NZL",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "OMN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PAK",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PAN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PER",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PHL",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PLW",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PNG",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "POL",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRI",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRK",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRT",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRY",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PSE",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PYF",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "QAT",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ROU",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "RUS",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "RWA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SAU",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SDN",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SEN",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SGP",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SLB",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SLE",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SLV",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SMR",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SOM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SRB",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SSD",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "STP",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SUR",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SVK",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SVN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SWE",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SWZ",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SXM",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SYC",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SYR",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TCA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TCD",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TGO",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "THA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TJK",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TKM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TLS",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TON",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TTO",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TUN",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TUR",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TUV",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TWN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TZA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "UGA",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "UKR",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "URY",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "USA",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "UZB",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VAT",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VCT",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VEN",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VGB",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VIR",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VNM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VUT",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "WSM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "XKX",
+   "licence": "LEN",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "YEM",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ZAF",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ZMB",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ZWE",
+   "licence": "LEN",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ABW",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AFG",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AGO",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AIA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ALB",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AND",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ARE",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ARG",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ARM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ASM",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ATG",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AUS",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AUT",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "AZE",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BDI",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BEL",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BEN",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BFA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BGD",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BGR",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BHR",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BHS",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BIH",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BLR",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BLZ",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BMU",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BOL",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BRA",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BRB",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BRN",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BTN",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "BWA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CAF",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CAN",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHE",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHI",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHL",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CHN",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CIV",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CMR",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COD",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COG",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COL",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "COM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CPV",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CRI",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CUB",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CUW",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CYM",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CYP",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "CZE",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DEU",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DJI",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DMA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DNK",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DOM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "DZA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ECU",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "EGY",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ERI",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ESH",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ESP",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "EST",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ETH",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FIN",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FJI",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FRA",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FRO",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "FSM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GAB",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GBR",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GEO",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GHA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GIB",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GIN",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GMB",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GNB",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GNQ",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GRC",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GRD",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GRL",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GTM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GUM",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "GUY",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HKG",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HND",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HRV",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HTI",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "HUN",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IDN",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IMN",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IND",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IRL",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IRN",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "IRQ",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ISL",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ISR",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ITA",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "JAM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "JOR",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "JPN",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KAZ",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KEN",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KGZ",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KHM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KIR",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KNA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KOR",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "KWT",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LAO",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LBN",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LBR",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LBY",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LCA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LIE",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LKA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LSO",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LTU",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LUX",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "LVA",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MAC",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MAF",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MAR",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MCO",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MDA",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MDG",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MDV",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MEX",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MHL",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MKD",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MLI",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MLT",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MMR",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MNE",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MNG",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MNP",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MOZ",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MRT",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MSR",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MUS",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MWI",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "MYS",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NAM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NCL",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NER",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NGA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NIC",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NLD",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NOR",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NPL",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NRU",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "NZL",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "OMN",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PAK",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PAN",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PER",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PHL",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PLW",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PNG",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "POL",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRI",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRK",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRT",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PRY",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PSE",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "PYF",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "QAT",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ROU",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "RUS",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "RWA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SAU",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SDN",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SEN",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SGP",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SLB",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SLE",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SLV",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SMR",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SOM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SRB",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SSD",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "STP",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SUR",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SVK",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SVN",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SWE",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SWZ",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SXM",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SYC",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "SYR",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TCA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TCD",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TGO",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "THA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TJK",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TKM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TLS",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TON",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TTO",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TUN",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TUR",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TUV",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TWN",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "TZA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "UGA",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "UKR",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "URY",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "USA",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "UZB",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VAT",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VCT",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VEN",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VGB",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VIR",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VNM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "VUT",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "WSM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "XKX",
+   "licence": "AMI",
+   "covered": "No",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "YEM",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ZAF",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ZMB",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  },
+  {
+   "iso3": "ZWE",
+   "licence": "AMI",
+   "covered": "Yes",
+   "basis": null,
+   "royalty_rate": null
+  }
+ ],
+ "texts": {
+  "coverage_definition": "Licence coverage means the countries where generic versions of the PrEP products could be made available.",
+  "licence_types": "Both MPP licences and bilateral licences are voluntary licences. MPP licences are concluded through the Medicines Patent Pool, while bilateral licences are signed directly between the originator and generic manufacturers.",
+  "data_sources": "Licence coverage: derived from the licence documents. HIV burden (new HIV acquisitions and incidence): UNAIDS estimates for 2025, all ages. Countries for which UNAIDS publishes no estimate are not counted in the share of new HIV acquisitions. Income groups: World Bank income classification (current).",
+  "currency_note": "Territory lists and patent status change over time. Check MedsPaL and LAPaL for the current position before relying on this for a decision.",
+  "ami_disclaimer": "The publicly available alimatravir (AMI) licence does not include Appendix 3, which lists the patents. Without that list, assessing indirect coverage (countries outside the licence territory where generics could still be supplied) is challenging, so the AMI map shows the licence territory only."
+ },
+ "impact": {
+  "year": "2025",
+  "global_new_infections": 1200000.0,
+  "source": "UNAIDS AIDSinfo estimates, all ages"
+ }
+}

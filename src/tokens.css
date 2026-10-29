@@ -1,0 +1,46 @@
+/* Design tokens: every colour and font the page uses, in one place.
+ *
+ * Values are LAPaL's own (lapal.ch compiled stylesheet, read 27 Oct 2026; see
+ * ../lapal-public-handoff/PALETTE.md). Rename these to LAPaL's token names
+ * when integrating. After changing any map colour, re-run
+ * ../lapal-public-handoff/reference/colour_check.py.
+ *
+ * Licence identity colours are NOT here: they come from the data
+ * (licences[].colour, fade_colour, ramp_direct, ramp_indirect), so a new licence
+ * needs no code or CSS change. colours.js reads the tokens below for the
+ * colours that are not tied to one licence.
+ */
+:root {
+  /* LAPaL base */
+  --lapal-ink: #212529;          /* --color-ink */
+  --lapal-body: #3E3E3E;         /* --primary, body grey */
+  --lapal-ink-soft: #707070;     /* --gray, --color-ink-soft */
+  --lapal-hairline: #E5E5E5;     /* --color-hairline */
+  --lapal-panel: #F8F8F8;        /* --light */
+  --lapal-accent: #B53E8B;       /* --color-accent (LAPaL pink) */
+  --lapal-danger: #D7133F;       /* --danger */
+  --page-bg: #FFFFFF;
+
+  /* Type */
+  --font-family: 'PT Sans', 'PTSans-Regular', Arial, sans-serif;
+  --font-size-base: 15px;
+  --font-size-small: 13px;
+
+  /* Map: colours not tied to one licence */
+  --map-ocean: #FFFFFF;
+  --map-border: #707070;            /* drawn on top so pale tints keep their shape */
+  --map-border-width: 0.5px;
+  /* Overlaps (chosen with Lobna 2026-10-29; replaces PALETTE.md's near-black
+   * overlap and the tint + pattern for two of three). A group with no token
+   * here falls back to the missing licence's tint + pattern. */
+  --map-overlap: #5F7D36;           /* olive green: all three licences, and ANY / ALL modes */
+  --map-pair-CAB-LEN: #7B4FD6;      /* violet */
+  --map-pair-CAB-AMI: #E8D44D;      /* yellow */
+  --map-pair-LEN-AMI: #E07B00;      /* deep orange */
+  --map-not-covered: #E5E5E5;       /* not covered by any selected licence */
+  --map-other: #9E9E9E;             /* break-out view: covered, other combinations */
+  --map-no-data: #F8F8F8;           /* shapes with no data row (e.g. Falklands); never counted */
+  --map-switched-off: #FFFFFF;      /* legend entry switched off: same as the page, borders stay */
+  --map-recede-opacity: 0.25;       /* other countries when one is highlighted */
+  --map-small-dot-radius: 2.6px;    /* countries too small to see get a dot */
+}

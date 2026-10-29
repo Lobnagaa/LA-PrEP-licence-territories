@@ -1,0 +1,7 @@
+# Built in CI (python3 tools/build.py); not committed.
+dist/
+_site/
+.DS_Store
+__pycache__/
+# Unused alternative logo (white on green); celt.png is the one in use.
+assets/logos/CELT GH.png
