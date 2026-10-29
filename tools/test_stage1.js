@@ -1,6 +1,6 @@
 /* Stage 1 tests: data validation and coverage logic.
  *
- * Usage (from the lapal-public-prototype folder):
+ * Usage (from the repository folder):
  *   node tools/test_stage1.js
  *
  * 1. The real data passes validation.

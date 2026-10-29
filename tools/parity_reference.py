@@ -1,6 +1,6 @@
 """Run the Python reference coverage logic over the public JSON, for the parity test.
 
-Usage (from the lapal-public-prototype folder; needs pandas, e.g. the dashboard's .venv):
+Usage (from the repository folder; needs pandas, e.g. the dashboard's .venv):
     ../.venv/bin/python tools/parity_reference.py
 
 Reads   data/lapal_licence_coverage.json (public data only, never the private workbook)

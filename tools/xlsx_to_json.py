@@ -1,6 +1,6 @@
 """Turn the public spreadsheet into the JSON the page reads.
 
-Usage (from the lapal-public-prototype folder):
+Usage (from the repository folder):
     python3 tools/xlsx_to_json.py [path/to/lapal_licence_coverage.xlsx]
 
 Reads   ../lapal-public-handoff/data/lapal_licence_coverage.xlsx (default), read-only

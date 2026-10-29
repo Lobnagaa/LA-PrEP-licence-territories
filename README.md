@@ -1,13 +1,13 @@
-# Long-acting HIV PrEP: licence coverage
+# LA PrEP licence territories
 
-An interactive map of which countries the voluntary licences for long-acting HIV
+Long-acting HIV PrEP: licence coverage. An interactive map of which countries the voluntary licences for long-acting HIV
 pre-exposure prophylaxis (PrEP) cover: cabotegravir (CAB, MPP licence with ViiV
 Healthcare), lenacapavir (LEN, bilateral, Gilead Sciences) and alimatravir (AMI,
 bilateral, MSD). Figures are given for low- and middle-income countries (LMICs)
 next to global ones, with the share of new HIV acquisitions (UNAIDS) in covered
 countries.
 
-**Live page:** https://lobnagaa.github.io/lapal-licence-coverage/
+**Live page:** https://lobnagaa.github.io/LA-PrEP-licence-territories/
 
 This is a framework-free prototype for [LAPaL](https://lapal.ch), the Long-Acting
 Therapeutics Patents and Licences database coordinated by the
@@ -22,7 +22,7 @@ before relying on it for a decision.
 - Filter by region and income group; highlight or look up a country.
 - See the headline figures, and the countries behind each of them.
 - Download the current view as a PNG, a PowerPoint slide or an Excel spreadsheet.
-- Download the full country data as a CSV: [`lapal_licence_coverage.csv`](https://lobnagaa.github.io/lapal-licence-coverage/lapal_licence_coverage.csv).
+- Download the full country data as a CSV: [`lapal_licence_coverage.csv`](https://lobnagaa.github.io/LA-PrEP-licence-territories/lapal_licence_coverage.csv).
 
 ## Data
 

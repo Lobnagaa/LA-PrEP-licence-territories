@@ -1,6 +1,6 @@
 """Bundle the prototype into one self-contained HTML file.
 
-Usage (from the lapal-public-prototype folder, after tools/xlsx_to_json.py):
+Usage (from the repository folder, after tools/xlsx_to_json.py):
     python3 tools/build.py
 
 Reads   src/index.html, src/*.css, src/*.js, data/lapal_licence_coverage.json,
@@ -168,7 +168,7 @@ def write_csv(data, path):
             w.writerow(row)
 
 
-SITE_URL = os.environ.get('SITE_URL', '').rstrip('/')   # e.g. https://lobnagaa.github.io/lapal-licence-coverage
+SITE_URL = os.environ.get('SITE_URL', '').rstrip('/')   # e.g. https://lobnagaa.github.io/LA-PrEP-licence-territories
 PAGE_NAME = 'LAPaL_licence_coverage_prototype.html'      # the workflow publishes it as index.html
 
 
