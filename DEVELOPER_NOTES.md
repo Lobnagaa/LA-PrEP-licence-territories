@@ -30,6 +30,7 @@ and replace the last two with components.
 | `src/view.js` | Turns page state into what is drawn: which controls apply, tiles, tables, lookup, titles, PNG naming | no |
 | `src/export.js` | PNG export (canvas) | yes |
 | `src/slide.js` | PowerPoint export: one 16:9 slide (PptxGenJS 3.12.0) | yes |
+| `src/embed.js` | Inside an iframe, reports the page height to the parent page (see "Embedding in LAPaL") | yes |
 | `src/xlsx.js` | Spreadsheet export: writes an .xlsx with JSZip (bundled with PptxGenJS). Sheet contents come from `view.spreadsheet` | yes |
 | `src/map.js` | SVG world map and legend (d3-geo + topojson-client) | yes |
 | `src/ui.js` | Builds the controls from the data, holds state, redraws | yes |
@@ -233,6 +234,39 @@ Re-run the three commands above. No code change is needed for:
   removed. LMIC figures are on the "% of LMICs" and impact tiles, and the
   income-group table gives the split by group.
 - **Naming:** use "AMI", never "ALI".
+
+## Embedding in LAPaL (iframe)
+
+The live page can be embedded as is. GitHub Pages does not block framing.
+
+```html
+<iframe id="prep-licences"
+        src="https://lobnagaa.github.io/LA-PrEP-licence-territories/"
+        title="Long-acting HIV PrEP: licence coverage"
+        style="width:100%; height:1800px; border:0"
+        loading="lazy"></iframe>
+<script>
+  // The page reports its height (src/embed.js); size the iframe to fit it.
+  window.addEventListener('message', function (e) {
+    if (e.origin !== 'https://lobnagaa.github.io') return;
+    if (!e.data || e.data.type !== 'lapal-prep-licences:height') return;
+    document.getElementById('prep-licences').style.height = e.data.height + 'px';
+  });
+</script>
+```
+
+- `src/embed.js` runs only inside an iframe. It sends
+  `{type: 'lapal-prep-licences:height', height}` on load and whenever the height
+  changes (lists opening, table rows expanding, licences switched). Nothing else
+  is sent.
+- The 1800px is only the height before the first message arrives.
+- If the iframe has a `sandbox` attribute, it needs
+  `allow-scripts allow-downloads allow-popups`. Without them the exports and the
+  logo and licence links do not work.
+- Inside an auto-sized iframe the filter sidebar does not stay pinned while
+  scrolling, because the iframe itself does not scroll. Everything else behaves
+  as on the stand-alone page.
+- In a Vue component, put the listener in `mounted()` and remove it in `beforeUnmount()`.
 
 ## Search engines and AI readability
 

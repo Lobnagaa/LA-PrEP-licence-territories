@@ -68,7 +68,7 @@ LOGOS = [('lapal', 'LAPaL', 'main', 'https://lapal.ch'),
          ('coefficient', 'Coefficient Giving', 'support', 'https://coefficientgiving.org')]
 
 CSS = ['tokens.css', 'app.css']
-JS = ['data.js', 'coverage.js', 'colours.js', 'map.js', 'view.js', 'export.js', 'slide.js', 'xlsx.js', 'ui.js']
+JS = ['data.js', 'coverage.js', 'colours.js', 'map.js', 'view.js', 'export.js', 'slide.js', 'xlsx.js', 'ui.js', 'embed.js']
 
 
 def read(path):
